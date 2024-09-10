@@ -13,7 +13,7 @@ const Search = ({ initialQuery = '' }) => {
     const [results, setResults] = useState([]);
     const [loading, setLoading] = useState(false);
     const [suggestions, setSuggestions] = useState([]);
-    const predefinedSuggestions = ["Azure", "Power BI", "Microsoft 365", "Dynamics 365", "Visual Studio Code"];
+    const predefinedSuggestions = ["Azure learning paths", "Power BI learning paths", "Microsoft 365 learning paths", "Dynamics 365 learning paths", "Visual Studio Code learning paths"];
 
     useEffect(() => {
         if (initialQuery) {
